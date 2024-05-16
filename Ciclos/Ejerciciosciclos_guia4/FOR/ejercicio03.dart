@@ -14,7 +14,8 @@ void main(List<String> args) {
     }else if(numero < 0){
       print("el nuemro es negativo");
       cantNegativos++;
-      }else
+      }else{
 
+}
 }
 }
