@@ -4,7 +4,9 @@ void main(List<String> args) {
   
   double numero;
   int cantNumeros = 20;
-  int cantPositivos=0, cantNegativos=0, cantCeros;
+  int cantPositivos=0; 
+  int cantNegativos=0;
+  int cantCeros;
   for(int i=0; i < cantNumeros; i++){
     print("ingrese un numero");
     numero = double.parse(stdin.readLineSync()!);
