@@ -13,5 +13,5 @@ void main(List<String> args) {
       fila.add(double.parse(stdin.readLineSync()!));
 
     }
-  }
+  } 
 }
